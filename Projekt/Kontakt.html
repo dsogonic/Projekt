@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Programiranje web aplikacija</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="description" content="">
+	<meta name="keyword" content="">
+	<meta name="author" content="Dino Sogonić">
+	<meta name="viewport" content="width=devie-width; initial-scale=1; maximum-scale=1.0; user-scalable=0;">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	</head>
+<body>
+	<header>
+		<div class="arsenal-image" style="height: 200px;"></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="Novosti.html">News</a></li>
+			  <li><a href="Kontakt.html">Contact</a></li>
+			  <li><a href="O nama.html">About</a></li>
+			  <li><a href="Galerija.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Contact Form</h1>
+		<div id="contact">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.727707731478!2d-0.1106266846896704!3d51.55489181505139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b7645295e3b%3A0x3600713c8382cf90!2sEmirates+Stadium!5e0!3m2!1sen!2shr!4v1548269907425" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>			
+				<form action="https://www.arsenal.com/news" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">First Name *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+				<label for="lname">Last Name *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+				
+				<label for="lname">Your E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Your e-mail.." required>
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="">Please select</option>
+				  <option value="BE">Slovenia</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="LU">Bosnia</option>
+				  <option value="HU">Serbia</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2019 Dino Sogonić</p>
+	</footer>
+</body>
+</html>
